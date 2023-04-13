@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.divider-custom-line{
+  width: 90px;
+  height:3px;
+  background-color:white;
+}
+.divider-custom-icon{
+  padding:0 10px 0 10px
+
+
+}
+
+.portfolio .item {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  max-width: 25rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.layer:hover {
+  opacity: 1;
+}
+.layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.2s ease-in-out;
+  opacity: 0;
+  background-color: rgba(26, 188, 156, 0.9);
+}
+#lihgtBoxContainer{
+  display:flex;
+  justify-content:center ;
+  align-items: center;
+  position:fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: 4444;
+  
+}
+#lihgtBox{
+/* height: 70vh; */
+width: 50%;
+background-color: #fff;
+top: 20px;
+bottom: 20px;
+z-index: 9999999;
+position: relative;
+
+
+}
+.closes{
+  cursor: pointer;
+}
+.rounded-circle{
+  width:50px;
+  height:50px;
+}
+.navbar-nav{
+  margin-left: auto !important;
+
+}
+.nav-item a
+{
+  transition: all .5s;
+  color: #fff ;
+}
+.nav-item a:hover{
+  color:#0d6efd !important;
+}
